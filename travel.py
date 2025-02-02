@@ -10,3 +10,7 @@ def estimated_time_rounded(estimated_time):
     return rounded_time
 
 estimate = estimated_time_rounded(3.5)
+
+# generate messages for the planned trip
+def destination_setup(origin, destination, estimated_time, mode_of_transport="Car"):
+    pass
